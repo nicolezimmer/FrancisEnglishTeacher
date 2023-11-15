@@ -6,6 +6,18 @@ body {
 #resultado{
   margin-top: 1vh;
 }
+.Primero{
+  background-color: #06d6a0;
+  color: #000000;
+}
+.Segundo {
+  background-color: #FFD166;
+  color: #000000;
+}
+.Tercero {
+  background-color: #EF476F;
+  color: #000000;
+}
 .question{
   margin-top: 60px;
   font-size: 20pt;
@@ -845,5 +857,6 @@ a:focus {
   background: rgb(255, 255, 255, 0.9) url('/images/img/city 2/10.png') center/cover fixed;
 
 }
+
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
