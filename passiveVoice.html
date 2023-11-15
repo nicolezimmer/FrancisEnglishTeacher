@@ -27,12 +27,18 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
+
+
+
+  <!-- navbar -->
   <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
+    <header class="header_section" style="position: relative">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
@@ -66,183 +72,198 @@
           <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
             <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
           </form>
+          
         </nav>
+
       </div>
+      <section class="slider_section slider_section_lol position-relative">
+        <div class="container">
+
+            <div class="detail-box">
+                <h1>
+                  <span>
+                    Passive Voice
+                  </span>
+                </h1>
+            </div>
+
+        </div>
+    </section>
     </header>
-    <!-- end header section -->
+
   </div>
+  <!-- Contenido  -->
+  <!-- About Conditionals -->
+  <section class="slider_section position-relative" >
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" >
+        <div class="carousel-item active" >
+          <div class="slider_item-box layout_padding2">
+            <div class="container">
+              <div class="row">
 
-  <!-- about section -->
-  <section class="about_section layout_padding">
+                <div class="col-md-6">
+                  <div class="detail-box">
+                    <div>
+                      <h1>
+                        Passive<br>
+                        <span>
+                        Voice
+                        </span>
+                      </h1>
+                      <p>
+                        Passive voice is used to change the focus of the sentence, from the one doing the action, to the action itself. This is usually done when we prefer not to mention who or what does the action so that we can start a sentence with the most important or most logical information. This can happen for various reasons, for example: it's not known, it's obvious or we don't want to say, etc.
+                      </p>                      
+                      <div >
+                        <ol class="list-group " >
+                          <li class="list-group-item d-flex justify-content-between align-items-start work_section" style="background-color: #ff4f5a; color: white;">
+                            <div class="ms-2 me-auto">
+                              <div class="fw-bold">Its structure is:</div>
+                              Object + be + Past Participle
+                            </div>
+                          </li>
+                
+                          <li class="list-group-item d-flex justify-content-between align-items-start work_section" style="background-color: #ff4f5a; color: white;">
+                            <div class="ms-2 me-auto" >
+                              <div class="fw-bold">Example</div>
+                              My flight is cancelled
+                            </div>
+                          </li>
+                        </ol>
+                      </div>
+                      <br>
+
+                      <p>To change its tense, the past participle remains the same, only the form of 'be' changes.</p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <div>
+                      <img src="images/img/1.gif" alt="" class="" style="margin-left: 10%; width: 80%;"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- types -->
+  <section style="background-color: #ff4f5a; color: white;">
     <div class="container">
+      <br>
+      <br>
       <div class="custom_heading-container">
-        <h3 class=" ">
-          ABOUT OUR COMPANY
-        </h3>
-      </div>
-      <p class="layout_padding2-top">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      </p>
-      <div class="img-box layout_padding2">
-        <img src="images/about-img.jpg" alt="">
-      </div>
-      <p class="layout_padding2-bottom">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      </p>
-    </div>
-    <div class="container">
-      <div class="btn-box">
-        <a href="">
-          Read More
-        </a>
-        <hr>
-      </div>
-    </div>
-  </section>
-  <!-- end about section -->
 
+        <h1 class=" ">
+          Verb Tenses Examples
 
-  <!-- info section -->
-  <section class="info_section layout_padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="info-logo">
-            <h2>
-              Heustonn
-            </h2>
-            <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when
-              looking at its layout. The point of
-            </p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="info-nav">
-            <h4>
-              Navigation
-            </h4>
-            <ul>
-              <li>
-                <a href="index.html">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="about.html">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="service.html">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="contact.html">
-                  Contact Us
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  Login
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="info-contact">
-            <h4>
-              Contact Info
-            </h4>
-            <div class="location">
-              <h6>
-                Corporate Office Address:
-              </h6>
-              <a href="">
-                <img src="images/location.png" alt="">
-                <span>
-                  Loram ipusm New York, NY 36524
-                </span>
-              </a>
-            </div>
-            <div class="call">
-              <h6>
-                Customer Service:
-              </h6>
-              <a href="">
-                <img src="images/telephone.png" alt="">
-                <span>
-                  ( +01 1234567890 )
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="discover">
-            <h4>
-              Discover
-            </h4>
-            <ul>
-              <li>
-                <a href="">
-                  Help
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  How It Works
+        </h1>
+      </div>
+      <br>
+      <div class="service_container" style="border-radius: 50px; background-color: white; padding: 30px;">
+        <div class="row" >
 
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  subscribe
-                </a>
-              </li>
-              <li>
-                <a href="contact.html">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
-            <div class="social-box">
-              <a href="">
-                <img src="images/facebook.png" alt="">
-              </a>
-              <a href="">
-                <img src="images/twitter.png" alt="">
-              </a>
-              <a href="">
-                <img src="images/google-plus.png" alt="">
-              </a>
-              <a href="">
-                <img src="images/linkedin.png" alt="">
-              </a>
-            </div>
-          </div>
+          <table class="table" >
+            <thead >
+              <tr>
+                  <th scope="col">Tense</th>
+                  <th scope="col">Example</th>
+                  <th scope="col">Structure</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr>
+                  <th scope="row">Present simple</th>
+                  <td>Alioli is made from oil, garlic and salt.</td>
+                  <td>is/are + past participle</td>
+              </tr>
+              <tr>
+                  <th scope="row">Present continuous</th>
+                  <td>The hall is being painted this week.</td>
+                  <td>is/are being + past participle</td>
+              </tr>
+              <tr>
+                  <th scope="row">Past simple</th>
+                  <td>John F. Kennedy was assassinated in 1963.</td>
+                  <td>was/were + past participle</td>
+              </tr>
+              <tr>
+                  <th scope="row">Past continuous</th>
+                  <td>The signs were being put up last week.</td>
+                  <td>was/were being + past participle</td>
+              </tr>
+              <tr>
+                  <th scope="row">Present perfect</th>
+                  <td>Oranges have been grown here for centuries.</td>
+                  <td>has/have been + past participle</td>
+              </tr>
+              <tr>
+                  <th scope="row">Past perfect</th>
+                  <td>When he got home, he found that his flat had been burgled.</td>
+                  <td>had been + past participle</td>
+              </tr>
+              <tr>
+                  <th scope="row">Future simple</th>
+                  <td>The work will be finished next week.</td>
+                  <td>will be + past participle</td>
+              </tr>
+            </tbody>
+          </table>
+          
         </div>
+        
       </div>
     </div>
+    <img src="images/img/7.gif" alt="" style="width: 10%; margin-left: 80%;">
+
+    <br>
+    <br>
+
   </section>
 
-  <!-- end info_section -->
+<!-- about section -->
+<section class="about_section layout_padding">
+  <div class="container">
+    <div class="custom_heading-container">
+      <h3 class=" ">
+        Ejercicios
+      </h3>
+    </div>    
+    <div>aca van los ejercicios de condicionales kamel!!! ponele estilos mas o menos para que se vean prolijo </div>    
 
-  <!-- footer section -->
-  <section class="container-fluid footer_section">
-    <p>
-      Copyright &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
+  </div>
+</section>
+
+
+<!-- info section -->
+<section style="background-color: #cfd5d6; color: white;">
+  <br>
+  <br>
+  <section class="container-fluid footer_section" style="background-color: #cfd5d6; color: white;">
+    <p style="color: white; padding-top: 30px;">
+      Copyright &copy; 1999 All Rights Reserved By
+      <a href="https://www.instagram.com/zimmer.rar/" style="color: white;">FrancisCompany</a>
+
     </p>
-  </section>
-  <!-- footer section -->
 
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
+  </section>
+  <img src="images/img/5.gif" alt="" style="width: 100px; margin-left: 80%;">
+
+  <img src="images/img/city 8/1.png" alt="" style="width: 100%; display: block; margin: 0 auto;">
+
+</section>
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+
 </body>
 
 </html>
