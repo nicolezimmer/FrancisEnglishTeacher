@@ -3,6 +3,148 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
+#resultado{
+  margin-top: 1vh;
+}
+.question{
+  margin-top: 60px;
+  font-size: 20pt;
+  text-align: left;
+}
+#options{
+  color: #ff4f5a;
+  text-align: left;
+}
+/* Estilo para el radio button */
+#options input[type="radio"] {
+  /* Cambiar el tamaño del radio button */
+  width: 20px;
+  height: 20px;
+  /* Ocultar el radio button por defecto */
+  opacity: 0;
+}
+
+/* Estilo para el contenedor del radio button (puede ser una etiqueta <label>) */
+#options label {
+  /* Establecer el estilo del contenedor del radio button */
+  display: inline-block;
+  position: relative;
+  padding-left: 30px; /* Espacio a la izquierda del radio button */
+  cursor: pointer;
+  font-size: 12pt;
+}
+
+/* Estilo para el indicador del radio button */
+#options label::before {
+  /* Crear un círculo que actuará como el indicador del radio button */
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333; /* Borde del círculo */
+  border-radius: 50%; /* Hacer que el borde sea redondeado para formar un círculo */
+  background-color: white; /* Color de fondo del círculo */
+}
+
+/* Estilo para el indicador del radio button cuando está seleccionado */
+#options input[type="radio"]:checked + label::before {
+  background-color: #e74c3c; /* Cambiar el color de fondo a rojo cuando el radio button está seleccionado */
+  border-color: #c0392b; /* Cambiar el color del borde a rojo cuando el radio button está seleccionado */
+}
+
+
+#passiveVoiceForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#conditionalForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#optionsCon{
+  color: #ff4f5a;
+  text-align: left;
+}
+/* Estilo para el radio button */
+#optionsCon input[type="radio"] {
+  /* Cambiar el tamaño del radio button */
+  width: 20px;
+  height: 20px;
+  /* Ocultar el radio button por defecto */
+  opacity: 0;
+}
+
+/* Estilo para el contenedor del radio button (puede ser una etiqueta <label>) */
+#optionsCon label {
+  /* Establecer el estilo del contenedor del radio button */
+  display: inline-block;
+  position: relative;
+  padding-left: 30px; /* Espacio a la izquierda del radio button */
+  cursor: pointer;
+  font-size: 12pt;
+}
+
+/* Estilo para el indicador del radio button */
+#optionsCon label::before {
+  /* Crear un círculo que actuará como el indicador del radio button */
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333; /* Borde del círculo */
+  border-radius: 50%; /* Hacer que el borde sea redondeado para formar un círculo */
+  background-color: white; /* Color de fondo del círculo */
+}
+
+/* Estilo para el indicador del radio button cuando está seleccionado */
+#optionsCon input[type="radio"]:checked + label::before {
+  background-color: #e74c3c; /* Cambiar el color de fondo a rojo cuando el radio button está seleccionado */
+  border-color: #c0392b; /* Cambiar el color del borde a rojo cuando el radio button está seleccionado */
+}
+
+
+
+
+.ready{
+  display: flex;
+  justify-content: center;
+  color: #f2f2f2;
+  background-color: #ff4f5a;
+  text-decoration: none;
+  border: .5vb solid #ff4f5a;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vb;
+  width: 30vw;
+  border-radius: 2vh;
+  transition: all 0.5s ease;
+  padding: 1vh 5vw 1vh 5vw;
+  margin-top: 10vh;
+}
+
+.ready:hover{
+  display: flex;
+  justify-content: center;
+  color: #ff4f5a;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  border: .5vb solid #ff4f5a;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vb;
+  width: 30vw;
+  border-radius: 2vh;
+}
+
+
 
 .layout_padding {
   padding: 75px 0;
