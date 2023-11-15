@@ -674,7 +674,7 @@ a:focus {
 .slider_section_lol {
   height: 900px;
   position: relative;
-  background-image: url('/images/img/city 8/7.png'); /* Reemplaza 'tu_ruta_de_imagen.jpg' con la ruta correcta de tu imagen */
+  background: rgb(255, 255, 255, 0.9) url('/images/img/city 8/7.png') center/cover fixed;
   background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
   background-position: center; /* Centra la imagen en el contenedor */
   color: #fff; /* Cambia el color del texto para que sea legible en la imagen de fondo */
@@ -693,9 +693,15 @@ a:focus {
   max-width: 650px;
   margin: auto;
   background-color: #fff;
+  font-family: 'Courier New', Courier, monospace;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 255, 255, 0.9) url('/images/img/city 8/7.png') center/cover fixed;
+}
+
+.fondo-bonito{
+  background: rgb(255, 255, 255, 0.9) url('/images/img/city 2/10.png') center/cover fixed;
+
 }
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
